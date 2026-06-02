@@ -1,0 +1,41 @@
+{
+  "model_name": "Logistic Regression",
+  "trained_at": "2026-05-19T08:02:33.025330",
+  "metrics": {
+    "roc_auc": 0.8454,
+    "cv_auc": 0.8479,
+    "f1_churn": 0.6196,
+    "precision": 0.5113,
+    "recall": 0.7861
+  },
+  "all_models": {
+    "Logistic Regression": {
+      "roc_auc": 0.8454,
+      "cv_auc": 0.8479,
+      "f1_churn": 0.6196,
+      "precision": 0.5113,
+      "recall": 0.7861
+    },
+    "Random Forest": {
+      "roc_auc": 0.8381,
+      "cv_auc": 0.8427,
+      "f1_churn": 0.6251,
+      "precision": 0.5577,
+      "recall": 0.7112
+    },
+    "Gradient Boosting": {
+      "roc_auc": 0.8415,
+      "cv_auc": 0.8441,
+      "f1_churn": 0.577,
+      "precision": 0.6542,
+      "recall": 0.516
+    },
+    "XGBoost": {
+      "roc_auc": 0.8387,
+      "cv_auc": 0.8407,
+      "f1_churn": 0.6238,
+      "precision": 0.5332,
+      "recall": 0.7513
+    }
+  }
+}
